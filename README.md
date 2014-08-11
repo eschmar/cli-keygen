@@ -5,7 +5,10 @@ Command line tool to generate unique alphanumeric keys and write them to a csv f
 ```Shell
 $ php keygen.php quantity length [filename]
 ```
-Generating 2'000'000 keys of length 16 took 18 seconds on my laptop.
+Generating 2'000'000 keys of length 16 took 17 seconds on my laptop.
+
+## example
+![Keygen](https://raw.githubusercontent.com/eschmar/cli-keygen/master/example.jpg)
 
 ## append additional keys
 Simply enter the amount of additional keys and target the same file. This process may take a while - it's always easier to generate enough keys than appending.
