@@ -1,6 +1,10 @@
 <?php
 
     /**
+     * keygen.php v1
+     * @author Marcel Eschmann, https://github.com/eschmar/cli-keygen
+     * @license MIT license
+     *
      * @description
      *
      * This script generates `$quantity` unique alphanumeric keys of length
