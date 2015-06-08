@@ -37,7 +37,7 @@
     $chars = 'abcdefghjkmnpqrstuvwxyABCDEFGHJKLMNPQRSTUVWYX2345678';
     $quantity = intval($argv[1]);
     $length = intval($argv[2]);
-    $filename = $argv[3] ? $argv[3] : 'keys.csv';
+    $filename = isset($argv[3]) ? $argv[3] : 'keys.csv';
 
     // init
     $start = time();
